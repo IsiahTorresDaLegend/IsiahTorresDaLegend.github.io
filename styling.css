@@ -93,7 +93,7 @@
 #boy {
 /* Used a div to position this image. */
     display: block;
-    block-size: 300px;
+    block-size: 150px;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -104,7 +104,7 @@
 #girl {
 
     display: block;
-    block-size: 300px;
+    block-size: 150px;
     padding-top: 50px;
     margin-left: 10px;
 

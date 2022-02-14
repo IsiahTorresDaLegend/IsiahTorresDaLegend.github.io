@@ -1,0 +1,111 @@
+<!--This code was written for CSC 102 class at UAT, Web Presence assignment. Written by Isiah Torres.-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isiah's Lab</title>
+    <!--Each page has a separate CSS file so I could make little changes to the page specifically.-->
+    <link rel="stylesheet" type="text/css" href="styling.css"/>
+
+</head>
+
+<body>
+
+    <!--Using <header> to make the main header or title of the page.-->
+    <header>
+        <h1>Welcome to the cyber laboratory of Isiah Torres</h1>
+    </header>
+    
+    <!--Used a <div> for the nav menu so it can be its own element.-->
+    <div id="navMenu">
+        <b>Navigation:</b>
+        <!--<nav> tag specifies navigation for the user.-->
+        <nav>
+
+            <!--This code references where the nav links will go to. These pages are in folders.-->
+            <!--Buttons looked better than a regular link. location.replace() will redirect users to the other pages.-->
+            <button onclick="location.replace('Board-Objectives/board-objectives.html')">Boards Objectives</button>
+            <button onclick="location.replace('UAT-DOM/DOM.html')">UAT Space Program</button>
+            
+        </nav>
+    </div>
+    
+    <!--Created three divs, side-by-side, instead of on top of each other, to place images around text.-->
+    <!--This div allowed me to place a image to the left of the text.-->
+    <div id=divLeft>
+        <img id="cyber" src="cyber-security.png" alt="Cyber Security"/>
+    </div>
+    
+    <!--This div allowed me to place a image to the right of the text.-->
+    <div id=divRight>
+        <img id="dev" src="developing.png" alt="Programming"/>
+    </div>
+    
+    <!--<main> specifies the main content of the page (can only be one)-->
+    <main>
+    
+    <!--This div allowed me to place content in the center division of the screen and allows content to be placed on its sides.-->
+    <div id=divMid>
+    <h3>About me:</h3>
+   
+    <h2>
+        Hey, what's up everyone!
+        <br> Welcome to my page.
+    </h2>
+    
+    <!--Makes a unordered list, like bullets or arrows.-->
+    <ul>
+
+    <!--<li> defines a list item.-->
+    <li>
+        <h2>
+        I am from California, in the United States of America.
+        <br>
+        I currently attend college at the University of Advancing Technology and one day, I hope to be a great pentester and programmer.
+        </h2>
+    </li>
+
+    <li>
+        <h2> The programming languages that I am learning about now are, HTML, CSS, and JavaScript, but 
+        I plan on learning more programming languages as well, such as C++ and Python.
+        </h2>
+    </li>
+
+    <li>
+        <h2> Please browse at some of the code I have made.
+        <br>
+        Any, advice, tips, critiques, or ideas, are always welcome!
+        </h2>
+    </li>
+
+    <li>
+        <h2> 
+        I am always looking to learn more, and I am looking forward to working with people and developing more code.
+        </h2>
+    </li>
+
+    </ul>
+
+   <img id="girl" src="programmer-girl.png"/>
+
+   <!--Used a <div> to be able to move the image next to the one above-->
+    <div id="boyImg">
+    <img id="boy" src="programmer-boy.png"/>
+    </div>
+
+    </div>
+
+    </main>
+
+    <!--<footer> creates footer content for the page of course.-->
+    <footer>
+        University of Advancing Technology <br>
+        2625 W Baseline Rd, Tempe, AZ 85283
+    </footer>
+
+</body>
+</html>
